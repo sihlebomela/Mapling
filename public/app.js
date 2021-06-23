@@ -1,6 +1,6 @@
     const lat = document.querySelector('.lat')
     const lng = document.querySelector('.lng')
-    let mymap = L.map('map').setView([0, 0], 1);  
+    let mymap = L.map('map').setView([0, 0], 2);  
     let button = document.querySelector('.get-location');
     let truckIcon = L.icon({
         iconUrl: 'house.png',

@@ -29,7 +29,7 @@
                 marker.setLatLng([lat.textContent, lng.textContent]) // set marker position to the given geolocation
             });
     
-            marker.bindPopup('<p>Delivery Point</p>').openPopup();
+            marker.bindPopup('<p>This is probably your location</p>').openPopup();
         });
         document.querySelector('#map').classList.toggle('toggle')
 
